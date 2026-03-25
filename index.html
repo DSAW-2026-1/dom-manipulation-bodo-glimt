@@ -8,6 +8,23 @@
   </head>
   <body>
     <h1>Mi TODO list</h1>
+
+    <main class="container">
+      <form id="task-form" class="task-form">
+        <label class="sr-only" for="task-input">Nueva tarea</label>
+        <input
+          id="task-input"
+          type="text"
+          placeholder="Escribe una tarea..."
+          autocomplete="off"
+          required
+        />
+        <button id="task-add" type="submit">Agregar</button>
+      </form>
+
+      <ul id="task-list" class="task-list" aria-live="polite"></ul>
+    </main>
+
     <script src="scripts/script.js"></script>
   </body>
 </html>
