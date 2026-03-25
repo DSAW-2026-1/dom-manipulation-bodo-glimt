@@ -29,4 +29,6 @@ El diseño de la aplicación debe ser responsive y adaptarse correctamente a dif
 | HTML Semántico     | 0.5     |
 | Funcionalidad      | 3       |
 
+Tomás Sarmiento Vela
+link = https://dsaw-2026-1.github.io/dom-manipulation-bodo-glimt/
 
